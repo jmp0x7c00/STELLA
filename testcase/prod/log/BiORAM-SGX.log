@@ -1,0 +1,255 @@
+start...
+EDL param entry num: 10
+
+*********CallGraph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+CalRetPairInCycle   67
+MaxNodeInCycle      17
+NodeInCycle         23
+TotalEdge           9947
+TotalCycle          7
+TotalNode           453
+#######################################################
+
+*********General Stats***************
+################ (program : )###############
+AddrsNum            2489
+TotalFieldObjects   2065
+StoresNum           6269
+FSObjNum            1589
+BitCastNumber       2473
+FIObjNum            222
+GepsNum             10920
+MaxStructSize       19
+IndCallSites        1
+TotalSVFStmts       49336
+TotalPointers       69252
+BBWith3Succ         50
+ReturnsNum          569
+VarArrayObj         44
+CopysNum            5890
+ConstArrayObj       1
+CallsNum            2565
+TotalPTASVFStmts    23309
+TotalObjects        1812
+FunctionObjs        453
+GlobalObjs          38
+HeapObjs            306
+StackObjs           1013
+ConstStructObj      3
+VarStructObj        934
+NonPtrObj           571
+TotalCallSite       9894
+LocalVarInRecur     127
+LoadsNum            5060
+BBWith2Succ         4499
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.19704
+AvgIn/OutAddrEdge   0.0897165
+AvgIn/OutLoadEdge   0.134135
+AvgIn/OutCopyEdge   0.917239
+MaxInAddrEdge       1
+MaxOutStoreEdge     70
+NumOfCGNode         77339
+TotalValidNode      22716
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   2483
+NumOfGeps           10740
+NumOfCGEdge         25154
+NumOfAddrs          2038
+MaxOutAddrEdge      326
+NumOfLoads          3047
+NumOfStores         1271
+MaxOutLoadEdge      37
+NumOfCopys          10096
+MaxOutCopyEdge      643
+MaxInStoreEdge      15
+MaxInLoadEdge       81
+MaxInCopyEdge       214
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    23.1456
+AvgPtsSetSize       6.26102
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalTime           0.935
+PointsToBlkPtr      0
+PointsToConstPtr    14
+MaxNodesInSCC       88
+TotalPWCCycleNum    16
+TotalCycleNum       84
+IndEdgeSolved       52
+NodesInCycles       545
+MaxPtsSetSize       356
+NumOfSCCDetect      9
+IndCallSites        1
+DYFieldObjs         2065
+MemObjects          1812
+Pointers            67711
+NumOfFieldExpand    0
+Iterations          9
+DYFieldPtrs         1541
+NumOfSFRs           0
+GepProcessed        15898
+LoadProcessed       189849
+CopyProcessed       20357
+StoreProcessed      19354
+AddrProcessed       2136
+TotalObjects        3877
+NullPointer         833
+TotalPointers       69252
+#######################################################
+****Persistent Points-To Cache Statistics: bv-finalize****
+UniquePointsToSets       14746
+TotalUnions              117737
+PropertyUnions           25320
+UniqueUnions             5788
+LookupUnions             75287
+PreemptiveUnions         11342
+TotalComplements         769228
+PropertyComplements      686993
+UniqueComplements        5447
+LookupComplements        71341
+PreemptiveComplements    5447
+TotalIntersections       31281
+PropertyIntersections    20313
+UniqueIntersections      14
+LookupIntersections      54
+PreemptiveIntersections  10900
+
+****Memory SSA Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+AverageRegSize      2.80334
+SSARenameTime       0.03
+InsertPHITime       0.021
+GenMUCHITime        0.115
+GenRegionTime       0.601
+TotalMSSATime       0.771
+BBHasMSSAPhi        1638
+StoreHasChi         6218
+MaxRegSize          213
+MemRegions          3534
+FunHasRetMu         332
+FunEntryChi         4447
+StoreChiNode        6620
+LoadMuNode          9093
+MSSAPhi             15704
+LoadHasMu           5060
+CSChiNode           4026
+CSMuNode            6401
+CSHasChi            1129
+FunRetMu            4431
+FunHasEntryChi      225
+CSHasMu             1149
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+OptTime             0
+ATNodeTime          0.045
+AvgWeight           9.53597
+TLNodeTime          0
+ConnIndEdgeTime     0.11
+ConnDirEdgeTime     0
+TotalTime           0.155
+MaxIndOutDeg        676
+MaxIndInDeg         676
+Store               6269
+Gep                 10920
+Addr                2489
+ActualRet           1552
+AvgOutDegree        1
+ActualParam         22079
+AvgIndOutDeg        2
+FormalRet           141
+DirectCallEdge      2565
+ActualIn            6401
+TotalNode           105717
+TotalEdge           139770
+AvgInDegree         1
+Copy                5890
+FormalIn            4447
+FormalOut           4431
+PHI                 3145
+ActualOut           4026
+Load                5060
+IndirectEdge        78874
+MSSAPhi             15704
+DirectEdge          60896
+FormalParam         733
+AvgIndInDeg         1
+IndirectEdgeLabels  752140
+IndCallEdge         9336
+IndRetEdge          6153
+DirectRetEdge       569
+MaxInDegree         676
+MaxOutDegree        2259
+#######################################################
+initialization time :2.67761
+453 452 451 450 449 448 447 446 445 444 443 442 441 440 439 438 437 436 435 434 433 432 431 430 429 428 427 426 425 424 423 422 421 420 419 418 417 416 415 414 413 412 411 410 409 408 407 406 405 404 403 402 401 400 399 398 397 396 395 394 393 392 391 390 389 388 387 386 385 384 383 382 381 380 379 378 377 376 375 374 373 372 371 370 369 368 367 366 365 364 363 362 361 360 359 358 357 356 355 354 353 352 351 350 349 348 347 346 345 344 343 342 341 340 339 338 337 336 335 334 333 332 331 330 329 328 327 326 325 324 323 322 321 320 319 
+318 317 316 
+315 314 313 312 311 310 309 308 307 306 305 304 303 302 301 300 299 298 297 296 295 294 293 292 291 290 289 288 287 286 285 284 283 282 281 280 279 278 277 276 275 274 273 272 271 270 269 268 267 266 265 264 263 262 261 260 259 258 257 256 255 254 253 252 251 250 249 248 247 246 245 244 243 242 241 240 239 238 237 236 235 234 233 232 231 230 229 228 227 226 225 224 223 222 221 220 219 218 217 216 215 214 213 212 211 210 209 208 207 206 205 204 203 202 201 200 199 198 197 196 195 194 193 192 191 190 189 188 187 186 185 184 183 182 181 180 179 178 177 176 175 174 173 172 171 170 169 168 167 166 165 164 163 162 161 160 159 158 157 156 155 154 153 152 151 150 149 148 147 146 145 144 143 142 141 140 139 138 137 136 135 134 133 132 131 130 129 128 127 126 125 124 123 122 121 120 119 118 117 116 115 114 113 112 111 110 109 108 107 106 105 104 103 102 101 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 findMallocNotCheck  time: 0.909939
+icfg total node num: 75297
+cg total node num: 453
+result:
+{ ln: 1012  cl: 3  fl: Enclave.cpp }
+{ ln: 1069  cl: 12  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1099  cl: 5  fl: ObliviousRAM_SGX.cpp }
+{ ln: 111  cl: 3  fl: Enclave.cpp }
+{ ln: 118  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1204  cl: 5  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1251  cl: 3  fl: Enclave.cpp }
+{ ln: 1288  cl: 6  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1307  cl: 6  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1320  cl: 5  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1413  cl: 6  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1432  cl: 6  fl: ObliviousRAM_SGX.cpp }
+{ ln: 1448  cl: 5  fl: ObliviousRAM_SGX.cpp }
+{ ln: 150  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2023  cl: 12  fl: ObliviousRAM_SGX.cpp }
+{ ln: 211  cl: 3  fl: Enclave.cpp }
+{ ln: 2164  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2178  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2184  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2191  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2197  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2204  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2211  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2214  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2219  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2227  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2231  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2238  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2248  cl: 3  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2466  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2468  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2472  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2474  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 2558  cl: 7  fl: ObliviousRAM_SGX.cpp }
+{ ln: 625  cl: 12  fl: ObliviousRAM_SGX.cpp }
+{ ln: 626  cl: 12  fl: ObliviousRAM_SGX.cpp }
+{ ln: 627  cl: 12  fl: ObliviousRAM_SGX.cpp }
+{ ln: 832  cl: 14  fl: ObliviousRAM_SGX.cpp }
+{ ln: 833  cl: 14  fl: ObliviousRAM_SGX.cpp }
+{ ln: 834  cl: 14  fl: ObliviousRAM_SGX.cpp }
+{ ln: 876  cl: 3  fl: Enclave.cpp }
+total time :3.59043

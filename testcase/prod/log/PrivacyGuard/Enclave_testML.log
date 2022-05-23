@@ -1,0 +1,384 @@
+start...
+EDL param entry num: 16
+
+*********CallGraph Stats***************
+################ (program : Enclave_testML)###############
+-------------------------------------------------------
+CalRetPairInCycle   19
+MaxNodeInCycle      5
+NodeInCycle         12
+TotalEdge           1629
+TotalCycle          3
+TotalNode           447
+#######################################################
+
+*********General Stats***************
+################ (program : Enclave_testML)###############
+AddrsNum            3042
+TotalFieldObjects   288
+StoresNum           4461
+FSObjNum            2474
+BitCastNumber       733
+FIObjNum            203
+GepsNum             4460
+MaxStructSize       68
+IndCallSites        33
+TotalSVFStmts       34033
+TotalPointers       37997
+BBWith3Succ         13
+ReturnsNum          297
+VarArrayObj         32
+CopysNum            2863
+ConstArrayObj       6
+CallsNum            1332
+TotalPTASVFStmts    16047
+TotalObjects        2678
+FunctionObjs        447
+GlobalObjs          48
+HeapObjs            188
+StackObjs           1993
+ConstStructObj      19
+VarStructObj        73
+NonPtrObj           1594
+TotalCallSite       1595
+LocalVarInRecur     145
+LoadsNum            10301
+BBWith2Succ         1480
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : Enclave_testML)###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.38821
+AvgIn/OutAddrEdge   0.169356
+AvgIn/OutLoadEdge   0.304198
+AvgIn/OutCopyEdge   0.813599
+MaxInAddrEdge       1
+MaxOutStoreEdge     182
+NumOfCGNode         41351
+TotalValidNode      16486
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   2754
+NumOfGeps           4357
+NumOfCGEdge         20094
+NumOfAddrs          2792
+MaxOutAddrEdge      170
+NumOfLoads          5015
+NumOfStores         1666
+MaxOutLoadEdge      110
+NumOfCopys          9056
+MaxOutCopyEdge      257
+MaxInStoreEdge      18
+MaxInLoadEdge       16
+MaxInCopyEdge       41
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : Enclave_testML)###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    2.38818
+AvgPtsSetSize       0.89223
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalTime           0.316
+PointsToBlkPtr      0
+PointsToConstPtr    68
+MaxNodesInSCC       21
+TotalPWCCycleNum    10
+TotalCycleNum       75
+IndEdgeSolved       59
+NodesInCycles       294
+MaxPtsSetSize       60
+NumOfSCCDetect      10
+IndCallSites        33
+DYFieldObjs         288
+MemObjects          2678
+Pointers            37907
+NumOfFieldExpand    0
+Iterations          10
+DYFieldPtrs         90
+NumOfSFRs           0
+GepProcessed        3728
+LoadProcessed       7344
+CopyProcessed       9029
+StoreProcessed      2386
+AddrProcessed       2846
+TotalObjects        2966
+NullPointer         358
+TotalPointers       37997
+#######################################################
+****Persistent Points-To Cache Statistics: bv-finalize****
+UniquePointsToSets       3686
+TotalUnions              18343
+PropertyUnions           14029
+UniqueUnions             579
+LookupUnions             2635
+PreemptiveUnions         1100
+TotalComplements         415400
+PropertyComplements      413089
+UniqueComplements        297
+LookupComplements        1717
+PreemptiveComplements    297
+TotalIntersections       9692
+PropertyIntersections    8982
+UniqueIntersections      9
+LookupIntersections      97
+PreemptiveIntersections  604
+
+****Memory SSA Statistics****
+
+************************
+################ (program : Enclave_testML)###############
+-------------------------------------------------------
+AverageRegSize      1.73863
+SSARenameTime       0.012
+InsertPHITime       0.002
+GenMUCHITime        0.037
+GenRegionTime       0.08
+TotalMSSATime       0.133
+BBHasMSSAPhi        899
+StoreHasChi         4311
+MaxRegSize          89
+MemRegions          2594
+FunHasRetMu         373
+FunEntryChi         3688
+StoreChiNode        4280
+LoadMuNode          9804
+MSSAPhi             4161
+LoadHasMu           10300
+CSChiNode           1614
+CSMuNode            2659
+CSHasChi            521
+FunRetMu            3677
+FunHasEntryChi      376
+CSHasMu             675
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : Enclave_testML)###############
+-------------------------------------------------------
+OptTime             0
+ATNodeTime          0.016
+AvgWeight           1.97922
+TLNodeTime          0
+ConnIndEdgeTime     0.03
+ConnDirEdgeTime     0
+TotalTime           0.046
+MaxIndOutDeg        111
+MaxIndInDeg         54
+Store               4461
+Gep                 4460
+Addr                3042
+ActualRet           543
+AvgOutDegree        1
+ActualParam         2879
+AvgIndOutDeg        2
+FormalRet           192
+DirectCallEdge      1331
+ActualIn            2659
+TotalNode           52657
+TotalEdge           70474
+AvgInDegree         1
+Copy                2863
+FormalIn            3688
+FormalOut           3677
+PHI                 319
+ActualOut           1614
+Load                10301
+IndirectEdge        35365
+MSSAPhi             4161
+DirectEdge          35109
+FormalParam         839
+AvgIndInDeg         1
+IndirectEdgeLabels  69995
+IndCallEdge         3625
+IndRetEdge          2194
+DirectRetEdge       297
+MaxInDegree         54
+MaxOutDegree        926
+#######################################################
+initialization time :0.837681
+447 446 445 444 443 442 441 440 439 438 437 436 435 434 433 432 431 430 429 428 427 426 425 424 423 422 421 420 419 418 417 416 415 414 413 412 411 410 409 408 407 406 405 404 403 402 401 400 399 398 397 396 395 394 393 392 391 390 389 388 387 386 385 384 383 382 381 380 379 378 377 376 375 374 373 372 371 370 369 368 367 366 365 364 363 362 361 360 359 358 357 356 355 354 353 352 351 350 349 348 347 346 345 344 343 342 341 340 339 338 337 336 335 334 333 332 331 330 329 328 327 326 325 324 323 322 321 320 319 318 317 316 315 314 313 312 311 310 309 308 307 306 305 304 303 302 301 300 299 298 297 296 295 294 293 292 291 290 289 288 287 286 285 284 283 282 281 280 279 278 277 276 275 274 273 272 271 270 269 268 267 266 265 264 263 262 261 260 259 258 257 256 255 254 253 252 
+251 250 249 248 247 
+246 245 244 243 242 241 240 239 238 237 236 235 234 233 232 231 230 229 228 227 226 225 224 223 222 221 220 219 218 217 216 215 214 213 212 211 210 209 208 207 206 205 204 203 202 201 200 199 198 197 196 195 194 193 192 191 190 189 188 187 186 185 184 183 182 181 180 179 178 177 176 175 174 173 172 171 170 169 168 167 166 165 164 163 162 161 160 159 158 157 156 155 154 153 152 151 150 149 148 147 146 145 144 143 142 141 140 139 138 137 136 135 134 133 132 131 130 129 
+
+128 127 126 125 124 123 122 121 120 119 118 117 116 115 114 113 112 111 110 109 108 107 106 105 104 103 102 101 100 99 98 97 96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 **********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode24255 {fun: fann_copy{ ln: 1088  cl: 49  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var28713 <-- Var28714]	
+   %740 = call align 16 i8* @malloc(i64 %739), !dbg !3149 { ln: 1088  cl: 49  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41333 <-- Var41335]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %755, i8* align 4 %759, i64 %764, i1 false), !dbg !3166 { ln: 1096  cl: 9  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode23762 {fun: fann_copy{ ln: 960  cl: 27  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var28155 <-- Var28156]	
+   %267 = call align 16 i8* @malloc(i64 %266), !dbg !2748 { ln: 960  cl: 27  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41303 <-- Var41305]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %282, i8* align 4 %286, i64 %290, i1 false), !dbg !2765 { ln: 968  cl: 9  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode12113 {fun: svm_train{ ln: 2208  cl: 32  fl: isv_enclave/enclave_svm.cpp }}
+AddrStmt: [Var15252 <-- Var15253]	
+   %390 = call align 16 i8* @malloc(i64 %389), !dbg !2802 { ln: 2208  cl: 32  fl: isv_enclave/enclave_svm.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41195 <-- Var41197]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 8 %568, i8* align 8 %569, i64 16, i1 false), !dbg !2948 { ln: 2242  cl: 22  fl: isv_enclave/enclave_svm.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode30207 {fun: fann_subset_train_data{ ln: 2664  cl: 32  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var35517 <-- Var35518]	
+   %88 = call align 16 i8* @calloc(i64 %87, i64 4), !dbg !2574 { ln: 2664  cl: 32  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41365 <-- Var41367]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %97, i8* align 4 %105, i64 %114, i1 false), !dbg !2587 { ln: 2672  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(inter)******************
+alloc site:
+CallICFGNode30458 {fun: fann_create_train{ ln: 2760  cl: 33  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var35790 <-- Var35791]	
+   %72 = call align 16 i8* @calloc(i64 %71, i64 4), !dbg !2567 { ln: 2760  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41374 <-- Var41376]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %51, i8* align 4 %57, i64 %60, i1 false), !dbg !2526 { ln: 2791  cl: 9  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(inter)******************
+alloc site:
+CallICFGNode30458 {fun: fann_create_train{ ln: 2760  cl: 33  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var35790 <-- Var35791]	
+   %72 = call align 16 i8* @calloc(i64 %71, i64 4), !dbg !2567 { ln: 2760  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41380 <-- Var41382]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %52, i8* align 4 %59, i64 %62, i1 false), !dbg !2528 { ln: 2809  cl: 9  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(inter)******************
+alloc site:
+CallICFGNode23403 {fun: fann_clear_train_arrays{ ln: 3788  cl: 27  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var27776 <-- Var27777]	
+   %104 = call align 16 i8* @calloc(i64 %103, i64 4), !dbg !2585 { ln: 3788  cl: 27  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41333 <-- Var41335]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %755, i8* align 4 %759, i64 %764, i1 false), !dbg !3166 { ln: 1096  cl: 9  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode30251 {fun: fann_subset_train_data{ ln: 2674  cl: 33  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var35558 <-- Var35559]	
+   %123 = call align 16 i8* @calloc(i64 %122, i64 4), !dbg !2602 { ln: 2674  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41368 <-- Var41370]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %132, i8* align 4 %140, i64 %149, i1 false), !dbg !2615 { ln: 2682  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(inter)******************
+alloc site:
+CallICFGNode21430 {fun: fann_allocate_neurons{ ln: 1794  cl: 33  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var25619 <-- Var25620]	
+   %67 = call align 16 i8* @calloc(i64 %66, i64 4), !dbg !2549 { ln: 1794  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41306 <-- Var41308]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %549, i8* align 4 %553, i64 %556, i1 false), !dbg !2982 { ln: 1034  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(inter)******************
+alloc site:
+CallICFGNode21259 {fun: fann_allocate_structure{ ln: 1672  cl: 56  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var25394 <-- Var25395]	
+   %173 = call align 16 i8* @calloc(i64 %172, i64 4), !dbg !2695 { ln: 1672  cl: 56  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41300 <-- Var41302]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %240, i8* align 4 %244, i64 %249, i1 false), !dbg !2723 { ln: 948  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode23705 {fun: fann_copy{ ln: 940  cl: 57  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var28102 <-- Var28103]	
+   %225 = call align 16 i8* @realloc(i8* %219, i64 %224), !dbg !2706 { ln: 940  cl: 57  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41300 <-- Var41302]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %240, i8* align 4 %244, i64 %249, i1 false), !dbg !2723 { ln: 948  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+**********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode23656 {fun: fann_copy{ ln: 926  cl: 75  fl: isv_enclave/enclave_fann.cpp }}
+AddrStmt: [Var28056 <-- Var28057]	
+   %186 = call align 16 i8* @realloc(i8* %180, i64 %185), !dbg !2673 { ln: 926  cl: 75  fl: isv_enclave/enclave_fann.cpp }
+
+
+buffer copy:
+StoreStmt: [Var41297 <-- Var41299]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 4 %201, i8* align 4 %205, i64 %210, i1 false), !dbg !2690 { ln: 935  cl: 5  fl: isv_enclave/enclave_fann.cpp }
+*********************************************************
+
+
+findMallocNotCheck  time: 0.169389
+icfg total node num: 36687
+cg total node num: 447
+result:
+{ ln: 1088  cl: 49  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 1672  cl: 56  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 1794  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 18  cl: 5  fl: isv_enclave/enclave_utilities.cpp }
+{ ln: 2208  cl: 32  fl: isv_enclave/enclave_svm.cpp }
+{ ln: 2664  cl: 32  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 2674  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 2760  cl: 33  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 3788  cl: 27  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 926  cl: 75  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 940  cl: 57  fl: isv_enclave/enclave_fann.cpp }
+{ ln: 960  cl: 27  fl: isv_enclave/enclave_fann.cpp }
+total time :1.00923

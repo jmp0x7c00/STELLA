@@ -1,2 +1,1 @@
-# STELA
-STELA source code and exprimental results
+# STELA: Sparse Taint Analysis for Enclave Leakage Detection

@@ -1,0 +1,215 @@
+start...
+EDL param entry num: 16
+
+*********CallGraph Stats***************
+################ (program : iDataAgent)###############
+-------------------------------------------------------
+CalRetPairInCycle   0
+MaxNodeInCycle      0
+NodeInCycle         0
+TotalEdge           212
+TotalCycle          0
+TotalNode           58
+#######################################################
+
+*********General Stats***************
+################ (program : iDataAgent)###############
+AddrsNum            374
+TotalFieldObjects   17
+StoresNum           555
+FSObjNum            324
+BitCastNumber       87
+FIObjNum            1
+GepsNum             151
+MaxStructSize       15
+IndCallSites        0
+TotalSVFStmts       2961
+TotalPointers       3622
+BBWith3Succ         0
+ReturnsNum          7
+VarArrayObj         10
+CopysNum            165
+ConstArrayObj       0
+CallsNum            35
+TotalPTASVFStmts    1264
+TotalObjects        326
+FunctionObjs        58
+GlobalObjs          4
+HeapObjs            17
+StackObjs           245
+ConstStructObj      1
+VarStructObj        7
+NonPtrObj           203
+TotalCallSite       210
+LocalVarInRecur     0
+LoadsNum            803
+BBWith2Succ         231
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : iDataAgent)###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.31386
+AvgIn/OutAddrEdge   0.234342
+AvgIn/OutLoadEdge   0.310345
+AvgIn/OutCopyEdge   0.627727
+MaxInAddrEdge       1
+MaxOutStoreEdge     50
+NumOfCGNode         4043
+TotalValidNode      1421
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   326
+NumOfGeps           151
+NumOfCGEdge         1534
+NumOfAddrs          333
+MaxOutAddrEdge      9
+NumOfLoads          441
+NumOfStores         201
+MaxOutLoadEdge      10
+NumOfCopys          741
+MaxOutCopyEdge      61
+MaxInStoreEdge      9
+MaxInLoadEdge       1
+MaxInCopyEdge       10
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : iDataAgent)###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    0.507463
+AvgPtsSetSize       0.143953
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalTime           0.004
+PointsToBlkPtr      0
+PointsToConstPtr    1
+MaxNodesInSCC       0
+TotalPWCCycleNum    0
+TotalCycleNum       0
+IndEdgeSolved       0
+NodesInCycles       0
+MaxPtsSetSize       9
+NumOfSCCDetect      2
+IndCallSites        0
+DYFieldObjs         17
+MemObjects          326
+Pointers            3604
+NumOfFieldExpand    0
+Iterations          2
+DYFieldPtrs         18
+NumOfSFRs           0
+GepProcessed        56
+LoadProcessed       424
+CopyProcessed       202
+StoreProcessed      179
+AddrProcessed       333
+TotalObjects        343
+NullPointer         44
+TotalPointers       3622
+#######################################################
+****Persistent Points-To Cache Statistics: bv-finalize****
+UniquePointsToSets       351
+TotalUnions              607
+PropertyUnions           583
+UniqueUnions             8
+LookupUnions             0
+PreemptiveUnions         16
+TotalComplements         8054
+PropertyComplements      8054
+UniqueComplements        0
+LookupComplements        0
+PreemptiveComplements    0
+TotalIntersections       603
+PropertyIntersections    603
+UniqueIntersections      0
+LookupIntersections      0
+PreemptiveIntersections  0
+
+****Memory SSA Statistics****
+
+************************
+################ (program : iDataAgent)###############
+-------------------------------------------------------
+AverageRegSize      1.00725
+SSARenameTime       0
+InsertPHITime       0.001
+GenMUCHITime        0.003
+GenRegionTime       0.003
+TotalMSSATime       0.007
+BBHasMSSAPhi        82
+StoreHasChi         534
+MaxRegSize          3
+MemRegions          276
+FunHasRetMu         27
+FunEntryChi         279
+StoreChiNode        476
+LoadMuNode          758
+MSSAPhi             339
+LoadHasMu           803
+CSChiNode           18
+CSMuNode            20
+CSHasChi            18
+FunRetMu            279
+FunHasEntryChi      27
+CSHasMu             19
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : iDataAgent)###############
+-------------------------------------------------------
+OptTime             0
+ATNodeTime          0.001
+AvgWeight           1.00171
+TLNodeTime          0
+ConnIndEdgeTime     0
+ConnDirEdgeTime     0
+TotalTime           0.001
+MaxIndOutDeg        11
+MaxIndInDeg         7
+Store               555
+Gep                 151
+Addr                374
+ActualRet           104
+AvgOutDegree        1
+ActualParam         396
+AvgIndOutDeg        2
+FormalRet           26
+DirectCallEdge      35
+ActualIn            20
+TotalNode           4450
+TotalEdge           5256
+AvgInDegree         1
+Copy                165
+FormalIn            279
+FormalOut           279
+PHI                 37
+ActualOut           18
+Load                803
+IndirectEdge        2333
+MSSAPhi             339
+DirectEdge          2923
+FormalParam         69
+AvgIndInDeg         1
+IndirectEdgeLabels  2337
+IndCallEdge         5
+IndRetEdge          1
+DirectRetEdge       7
+MaxInDegree         10
+MaxOutDegree        197
+#######################################################
+initialization time :0.038717
+58 
+57 56 55 54 
+53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 findMallocNotCheck  time: 0.001004
+icfg total node num: 3416
+cg total node num: 58
+result:
+{ ln: 119  cl: 5  fl: Enclave/enclave.cpp }
+total time :0.040166

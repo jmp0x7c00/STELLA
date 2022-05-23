@@ -1,0 +1,240 @@
+start...
+EDL param entry num: 8
+
+*********CallGraph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+CalRetPairInCycle   0
+MaxNodeInCycle      0
+NodeInCycle         0
+TotalEdge           188
+TotalCycle          0
+TotalNode           45
+#######################################################
+
+*********General Stats***************
+################ (program : )###############
+AddrsNum            297
+TotalFieldObjects   38
+StoresNum           428
+FSObjNum            266
+BitCastNumber       99
+FIObjNum            2
+GepsNum             170
+MaxStructSize       19
+IndCallSites        0
+TotalSVFStmts       2488
+TotalPointers       2932
+BBWith3Succ         0
+ReturnsNum          7
+VarArrayObj         15
+CopysNum            144
+ConstArrayObj       0
+CallsNum            33
+TotalPTASVFStmts    1098
+TotalObjects        269
+FunctionObjs        45
+GlobalObjs          2
+HeapObjs            29
+StackObjs           191
+ConstStructObj      1
+VarStructObj        12
+NonPtrObj           160
+TotalCallSite       188
+LocalVarInRecur     0
+LoadsNum            644
+BBWith2Succ         227
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.28249
+AvgIn/OutAddrEdge   0.217111
+AvgIn/OutLoadEdge   0.31477
+AvgIn/OutCopyEdge   0.638418
+MaxInAddrEdge       1
+MaxOutStoreEdge     27
+NumOfCGNode         3338
+TotalValidNode      1239
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   269
+NumOfGeps           170
+NumOfCGEdge         1320
+NumOfAddrs          269
+MaxOutAddrEdge      2
+NumOfLoads          390
+NumOfStores         139
+MaxOutLoadEdge      9
+NumOfCopys          621
+MaxOutCopyEdge      29
+MaxInStoreEdge      9
+MaxInLoadEdge       1
+MaxInCopyEdge       9
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    0.672216
+AvgPtsSetSize       0.210605
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalTime           0.005
+PointsToBlkPtr      0
+PointsToConstPtr    1
+MaxNodesInSCC       0
+TotalPWCCycleNum    0
+TotalCycleNum       0
+IndEdgeSolved       0
+NodesInCycles       0
+MaxPtsSetSize       9
+NumOfSCCDetect      3
+IndCallSites        0
+DYFieldObjs         38
+MemObjects          269
+Pointers            2905
+NumOfFieldExpand    0
+Iterations          3
+DYFieldPtrs         27
+NumOfSFRs           0
+GepProcessed        115
+LoadProcessed       358
+CopyProcessed       317
+StoreProcessed      133
+AddrProcessed       269
+TotalObjects        307
+NullPointer         55
+TotalPointers       2932
+#######################################################
+****Persistent Points-To Cache Statistics: bv-finalize****
+UniquePointsToSets       316
+TotalUnions              719
+PropertyUnions           692
+UniqueUnions             9
+LookupUnions             0
+PreemptiveUnions         18
+TotalComplements         9941
+PropertyComplements      9941
+UniqueComplements        0
+LookupComplements        0
+PreemptiveComplements    0
+TotalIntersections       491
+PropertyIntersections    491
+UniqueIntersections      0
+LookupIntersections      0
+PreemptiveIntersections  0
+
+****Memory SSA Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+AverageRegSize      1
+SSARenameTime       0.001
+InsertPHITime       0
+GenMUCHITime        0.002
+GenRegionTime       0.003
+TotalMSSATime       0.006
+BBHasMSSAPhi        50
+StoreHasChi         399
+MaxRegSize          1
+MemRegions          251
+FunHasRetMu         16
+FunEntryChi         255
+StoreChiNode        387
+LoadMuNode          601
+MSSAPhi             364
+LoadHasMu           644
+CSChiNode           33
+CSMuNode            33
+CSHasChi            31
+FunRetMu            255
+FunHasEntryChi      16
+CSHasMu             31
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+OptTime             0
+ATNodeTime          0
+AvgWeight           1
+TLNodeTime          0
+ConnIndEdgeTime     0.001
+ConnDirEdgeTime     0
+TotalTime           0.001
+MaxIndOutDeg        18
+MaxIndInDeg         17
+Store               428
+Gep                 170
+Addr                297
+ActualRet           87
+AvgOutDegree        1
+ActualParam         459
+AvgIndOutDeg        2
+FormalRet           16
+DirectCallEdge      33
+ActualIn            33
+TotalNode           3993
+TotalEdge           4606
+AvgInDegree         1
+Copy                144
+FormalIn            255
+FormalOut           255
+PHI                 19
+ActualOut           33
+Load                644
+IndirectEdge        2168
+MSSAPhi             364
+DirectEdge          2438
+FormalParam         42
+AvgIndInDeg         1
+IndirectEdgeLabels  2168
+IndCallEdge         4
+IndRetEdge          4
+DirectRetEdge       7
+MaxInDegree         17
+MaxOutDegree        163
+#######################################################
+initialization time :0.03339
+45 44 43 
+
+42 41 40 39 38 37 
+
+36 35 34 
+33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 
+3 2 
+1 **********************NULL BUFFER COPY(intra)******************
+alloc site:
+CallICFGNode2481 {fun: retrieve_data{ ln: 289  cl: 25  fl: server/server_enclave/server_enclave.cpp }}
+AddrStmt: [Var3121 <-- Var3122]	
+   %74 = call align 16 i8* @malloc(i64 %73), !dbg !598 { ln: 289  cl: 25  fl: server/server_enclave/server_enclave.cpp }
+
+
+buffer copy:
+StoreStmt: [Var3293 <-- Var3295]	
+   call void @llvm.memcpy.p0i8.p0i8.i64(i8* align 1 %75, i8* align 16 %53, i64 %77, i1 false), !dbg !601 { ln: 290  cl: 5  fl: server/server_enclave/server_enclave.cpp }
+*********************************************************
+
+
+findMallocNotCheck  time: 0.001413
+icfg total node num: 2777
+cg total node num: 45
+result:
+{ ln: 153  cl: 9  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 221  cl: 28  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 223  cl: 5  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 235  cl: 46  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 288  cl: 15  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 289  cl: 25  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 301  cl: 27  fl: server/server_enclave/server_enclave.cpp }
+{ ln: 309  cl: 9  fl: server/server_enclave/server_enclave.cpp }
+total time :0.035678

@@ -1,0 +1,218 @@
+start...
+EDL param entry num: 7
+
+*********CallGraph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+CalRetPairInCycle   4
+MaxNodeInCycle      1
+NodeInCycle         2
+TotalEdge           306
+TotalCycle          2
+TotalNode           115
+#######################################################
+
+*********General Stats***************
+################ (program : )###############
+AddrsNum            1824
+TotalFieldObjects   62
+StoresNum           1972
+FSObjNum            1760
+BitCastNumber       591
+FIObjNum            9
+GepsNum             1085
+MaxStructSize       19
+IndCallSites        0
+TotalSVFStmts       9554
+TotalPointers       11395
+BBWith3Succ         0
+ReturnsNum          30
+VarArrayObj         6
+CopysNum            845
+ConstArrayObj       1
+CallsNum            219
+TotalPTASVFStmts    7549
+TotalObjects        1770
+FunctionObjs        115
+GlobalObjs          8
+HeapObjs            19
+StackObjs           1626
+ConstStructObj      1
+VarStructObj        170
+NonPtrObj           318
+TotalCallSite       302
+LocalVarInRecur     40
+LoadsNum            2527
+BBWith2Succ         295
+-------------------------------------------------------
+#######################################################
+
+*********Constraint Graph Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgIn/OutEdge       1.4682
+AvgIn/OutAddrEdge   0.2341
+AvgIn/OutLoadEdge   0.295129
+AvgIn/OutCopyEdge   0.724087
+MaxInAddrEdge       1
+MaxOutStoreEdge     78
+NumOfCGNode         13245
+TotalValidNode      7390
+AvgIn/OutStoreEdge  0
+TotalValidObjNode   1732
+NumOfGeps           1075
+NumOfCGEdge         9120
+NumOfAddrs          1730
+MaxOutAddrEdge      8
+NumOfLoads          2181
+NumOfStores         1588
+MaxOutLoadEdge      48
+NumOfCopys          4276
+MaxOutCopyEdge      319
+MaxInStoreEdge      7
+MaxInLoadEdge       101
+MaxInCopyEdge       20
+#######################################################
+
+*********Andersen Pointer Analysis Stats***************
+################ (program : )###############
+-------------------------------------------------------
+AvgTopLvlPtsSize    1.68286
+AvgPtsSetSize       0.900022
+LoadStoreTime       0
+CollapseTime        0
+UpdateCGTime        0
+CopyGepTime         0
+SCCMergeTime        0
+SCCDetectTime       0
+TotalTime           0.066
+PointsToBlkPtr      0
+PointsToConstPtr    3
+MaxNodesInSCC       5
+TotalPWCCycleNum    1
+TotalCycleNum       8
+IndEdgeSolved       0
+NodesInCycles       26
+MaxPtsSetSize       7
+NumOfSCCDetect      7
+IndCallSites        0
+DYFieldObjs         62
+MemObjects          1770
+Pointers            11346
+NumOfFieldExpand    0
+Iterations          7
+DYFieldPtrs         49
+NumOfSFRs           0
+GepProcessed        1362
+LoadProcessed       3261
+CopyProcessed       6448
+StoreProcessed      1827
+AddrProcessed       1776
+TotalObjects        1832
+NullPointer         82
+TotalPointers       11395
+#######################################################
+****Persistent Points-To Cache Statistics: bv-finalize****
+UniquePointsToSets       1941
+TotalUnions              11553
+PropertyUnions           8659
+UniqueUnions             91
+LookupUnions             2633
+PreemptiveUnions         170
+TotalComplements         95206
+PropertyComplements      91945
+UniqueComplements        98
+LookupComplements        3065
+PreemptiveComplements    98
+TotalIntersections       4731
+PropertyIntersections    4531
+UniqueIntersections      3
+LookupIntersections      1
+PreemptiveIntersections  196
+
+****Memory SSA Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+AverageRegSize      1.02443
+SSARenameTime       0.002
+InsertPHITime       0
+GenMUCHITime        0.012
+GenRegionTime       0.022
+TotalMSSATime       0.036
+BBHasMSSAPhi        144
+StoreHasChi         1916
+MaxRegSize          7
+MemRegions          1678
+FunHasRetMu         69
+FunEntryChi         1739
+StoreChiNode        1910
+LoadMuNode          2480
+MSSAPhi             2140
+LoadHasMu           2495
+CSChiNode           137
+CSMuNode            180
+CSHasChi            91
+FunRetMu            1739
+FunHasEntryChi      69
+CSHasMu             100
+#######################################################
+
+****SVFG Statistics****
+
+************************
+################ (program : )###############
+-------------------------------------------------------
+OptTime             0
+ATNodeTime          0.005
+AvgWeight           1.2079
+TLNodeTime          0
+ConnIndEdgeTime     0.005
+ConnDirEdgeTime     0
+TotalTime           0.01
+MaxIndOutDeg        28
+MaxIndInDeg         9
+Store               1972
+Gep                 1085
+Addr                1824
+ActualRet           83
+AvgOutDegree        1
+ActualParam         624
+AvgIndOutDeg        1
+FormalRet           33
+DirectCallEdge      219
+ActualIn            180
+TotalNode           16120
+TotalEdge           20737
+AvgInDegree         1
+Copy                845
+FormalIn            1739
+FormalOut           1739
+PHI                 50
+ActualOut           137
+Load                2527
+IndirectEdge        11188
+MSSAPhi             2140
+DirectEdge          9549
+FormalParam         139
+AvgIndInDeg         1
+IndirectEdgeLabels  13514
+IndCallEdge         182
+IndRetEdge          134
+DirectRetEdge       30
+MaxInDegree         20
+MaxOutDegree        261
+#######################################################
+initialization time :0.223767
+115 114 113 112 111 110 109 108 107 106 105 104 103 102 101 100 99 98 97 
+96 95 94 93 92 91 90 89 88 87 86 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 
+70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 
+1 findMallocNotCheck  time: 0.003581
+icfg total node num: 11129
+cg total node num: 115
+result:
+{ ln: 130  cl: 5  fl: Enclave/Enclave.cpp }
+{ ln: 18  cl: 2  fl: Enclave/EUtils/EUtils.cpp }
+{ ln: 33  cl: 2  fl: Enclave/EUtils/EUtils.cpp }
+total time :0.231014
