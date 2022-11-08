@@ -1,0 +1,8 @@
+enclave {
+    trusted{
+        public void ecall_demo();
+    };
+    untrusted{
+        void ocall_in_pointer_leak([in]int* ptr);
+    };
+};

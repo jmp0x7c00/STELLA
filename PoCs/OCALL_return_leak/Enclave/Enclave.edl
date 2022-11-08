@@ -1,0 +1,8 @@
+enclave {
+    trusted{
+        public void ecall_enter_enclave();
+    };
+    untrusted{
+        int* ocall_return_an_untrusted_pointer();
+    };
+};

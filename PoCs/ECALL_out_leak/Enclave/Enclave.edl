@@ -1,0 +1,5 @@
+enclave {
+   trusted {
+      public void ecall_out_pointer_leak([out] int* out_ptr);
+   };
+};

@@ -1,0 +1,8 @@
+enclave {
+    trusted{
+        public void ecall_user_check_pointer_leak([user_check] int* ptr);
+    };
+    untrusted{
+       
+    };
+};
