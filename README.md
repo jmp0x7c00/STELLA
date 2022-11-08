@@ -1,1 +1,1 @@
-# STELA: Sparse Taint Analysis for Enclave Leakage Detection
+# Mind Your Enclave Pointers! Detecting Privacy Leakage for SGX Applications via Sparse Taint Analysis
