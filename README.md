@@ -1,4 +1,7 @@
-# Mind Your Enclave Pointers! Detecting Privacy Leakage for SGX Applications via Sparse Taint Analysis
+# STELLA
+Mind Your Enclave Pointers! Detecting Privacy Leakage for SGX Applications via Sparse Taint Analysis
+<hr>
+
 Our paper is the first to reveal a pointer misuse problem in SGX software that leads to privacy leakage, and we summarize five pointer-misuse patterns:
 * write private data to OCALL out pointers
 * write private data to OCALL in pointers
@@ -8,7 +11,7 @@ Our paper is the first to reveal a pointer misuse problem in SGX software that l
 
 We have implemented a prototype to detect enclave leakage bugs related to these patterns.
 ## Architecture
-![image](https://user-images.githubusercontent.com/16433413/201197810-395e192b-c9d5-4f4a-a2da-5761b85b1eb3.png)
+![image](https://user-images.githubusercontent.com/16433413/201198036-b17c25f0-9a14-42f0-8150-123a13e04dbc.png)
 
 ## Prerequisites
 Our prototype is built for following system:
