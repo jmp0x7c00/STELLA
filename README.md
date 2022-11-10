@@ -123,6 +123,14 @@ sudo apt install cmake gcc g++ libtinfo-dev libz-dev zip wget ##(If running on U
 cd $PROJECT_ROOT/src/svf_src
 source ./build.sh
 ```
+### build core
+```text
+cd $PROJECT_ROOT/src/core_src
+mkdir build
+cd build
+make ..
+```
+
 ## Usage
 
 ## Screenshots
