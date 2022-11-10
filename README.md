@@ -42,6 +42,7 @@ STELLA
 |
 |-- scripts
           |-- PoCs
+          |
           |-- real-world enclaves
 
 ```
