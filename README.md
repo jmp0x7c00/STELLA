@@ -132,7 +132,16 @@ make ..
 ```
 
 ## Usage
-
-## Screenshots
+Run STELLA on PoCs:
+```
+cd $PROJECT_ROOT/scripts/PoCs
+./run.sh
+```
+Run STELLA on real-world enclaves:
+```
+cd $PROJECT_ROOT/scripts/real-world enclaves/BiORAM-SGX
+./run.sh
+```
 
 ## Experimental results
+## Screenshots
