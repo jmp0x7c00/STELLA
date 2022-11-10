@@ -80,7 +80,11 @@ make
 
 4. Build LLVM
 ```text
-cd $PROJECT_ROOT/src/llvm_src/
+cd $PROJECT_ROOT/src
+wget https://github.com/llvm/llvm-project/archive/refs/tags/llvmorg-13.0.0.zip
+unzip llvmorg-13.0.0.zip
+mv llvmorg-13.0.0 llvm_src
+cd llvm_src
 mkdir build
 cd build
 # replace path_to_binutils to the actual path.
