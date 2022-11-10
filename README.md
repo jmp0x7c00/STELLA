@@ -41,8 +41,8 @@ STELLA
        |-- OCALL_return_leak
 |
 |-- scripts
-          |- PoCs
-          |- real-world enclaves
+          |-- PoCs
+          |-- real-world enclaves
 
 ```
 
