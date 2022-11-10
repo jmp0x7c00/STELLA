@@ -1,0 +1,2 @@
+ENC_VCF_TOPDIR = ./SGXserver_data/upload_data/
+ORAMTREE_TOPDIR = ./SGXserver_data/ORAM_table/
