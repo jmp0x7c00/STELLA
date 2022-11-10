@@ -22,8 +22,8 @@ Our prototype is built for following system:
 STELLA
 |
 |-- src
-      |-- prototype
-                  |-- ELA.cpp
+      |-- core
+             |-- ELA.cpp
       |
       |-- llvm_src
       |
