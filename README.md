@@ -1,10 +1,10 @@
 # Mind Your Enclave Pointers! Detecting Privacy Leakage for SGX Applications via Sparse Taint Analysis
 Our paper is the first to reveal a pointer misuse problem in SGX software that leads to privacy leakage, and we summarize five pointer-misuse patterns:
-* write private data to OCALL out pointer
-* write private data to OCALL in pointer
-* write private data to ECALL user_check pointer
-* write private data to OCALL return pointer
-* write private data to Null pointer
+* write private data to OCALL out pointers
+* write private data to OCALL in pointers
+* write private data to ECALL user_check pointers
+* write private data to OCALL return pointers
+* write private data to Null pointers
 
 We have implemented a prototype to detect enclave leakage bugs related to these patterns.
 ## Prerequisites
@@ -50,10 +50,10 @@ STELLA
 ```
 export PROJECT_ROOT=path_to_repository_head
 ```
-### Intel SGX SDK
+### Install Intel SGX SDK
 [Installation guide](https://github.com/intel/linux-sgx)
 
-### LLVM Tool
+### Build LLVM Toolchain
 1. Install required libraries
 ```text
 sudo apt-get install linux-headers-$(uname -r) csh gawk automake libtool bison flex libncurses5-dev
@@ -117,13 +117,13 @@ sudo cp $PROJECT_ROOT/src/llvm_src/build/lib/LLVMgold.so ./
 sudo cp $PROJECT_ROOT/src/llvm_src/build/lib/libLTO.* ./
 ```
 
-### SVF
+### Build SVF
 ```text
 sudo apt install cmake gcc g++ libtinfo-dev libz-dev zip wget ##(If running on Ubuntu 20.04)
 cd $PROJECT_ROOT/src/svf_src
 source ./build.sh
 ```
-### build core
+### Build Core
 ```text
 cd $PROJECT_ROOT/src/core_src
 mkdir build
