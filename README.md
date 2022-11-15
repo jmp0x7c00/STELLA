@@ -13,7 +13,7 @@ We have implemented a prototype to detect enclave leakage bugs related to these 
 ## Architecture
 ![image](https://user-images.githubusercontent.com/16433413/201198036-b17c25f0-9a14-42f0-8150-123a13e04dbc.png)
 
-## Prerequisites
+## Requirements
 Our prototype is built for following system:
 * Ubuntu 20.04 LTS
 * Intel i7-9700T 4.30GHz 8-core CPU and 32G memory
