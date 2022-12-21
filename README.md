@@ -191,6 +191,7 @@ cd $PROJECT_ROOT/scripts/real-world enclaves/BiORAM-SGX
 |PrivacyGuard          |OCALL in        |https://github.com/yang-sec/PrivacyGuard/blob/94e888aaaf3db019d61a6585aaecf6780bccb408/CEE_old/isv_enclave/isv_enclave.cpp#L510           |
 |PrivacyGuard          |OCALL in        |https://github.com/yang-sec/PrivacyGuard/blob/94e888aaaf3db019d61a6585aaecf6780bccb408/iDataAgent/Enclave/enclave.cpp#L461                |
 |PrivacyGuard          |OCALL in        |https://github.com/yang-sec/PrivacyGuard/blob/94e888aaaf3db019d61a6585aaecf6780bccb408/iDataAgent/Enclave/enclave.cpp#L473                |
+|PrivacyGuard          |NPD             |https://github.com/yang-sec/PrivacyGuard/issues/5                        |
 |SGX_SQLite            |OCALL in        |https://github.com/yerzhan7/SGX_SQLite/issues/8                                                                                           |
 |TaLoS                 |ECALL user_check|https://github.com/lsds/TaLoS/blob/052a93d6f62720a9027a56274e060b9bc84ea978/src/talos/patch/ssl_lib.c.patch#L1396                         |
 |TaLoS                 |ECALL out       |https://github.com/lsds/TaLoS/blob/052a93d6f62720a9027a56274e060b9bc84ea978/src/talos/patch/ssl_lib.c.patch#L1190                         |
