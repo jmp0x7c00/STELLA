@@ -195,6 +195,12 @@ cd $PROJECT_ROOT/scripts/real-world enclaves/BiORAM-SGX
 |TaLoS                 |ECALL user_check|https://github.com/lsds/TaLoS/blob/052a93d6f62720a9027a56274e060b9bc84ea978/src/talos/patch/ssl_lib.c.patch#L1396                         |
 |TaLoS                 |ECALL out       |https://github.com/lsds/TaLoS/blob/052a93d6f62720a9027a56274e060b9bc84ea978/src/talos/patch/ssl_lib.c.patch#L1190                         |
 |SGX-Tor               |OCALL return    |https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/rendservice.c#L1254                     |
-|SGX-Tor               |user_check?     |TODO                                                                                                                                      |
-|SGX-Tor               |NPD?            |TODO                                                                                                                                      |
+|SGX-Tor               |user_check?     |TODO|
+|SGX-Tor|NPD| https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L158|
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L139 |
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L138 |
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L90  |
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L474 |
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L473 |
+|SGX-Tor|NPD|https://github.com/kaist-ina/SGX-Tor/blob/193d4f072d49799a25830c75ef7b29f0f960e66d/Enclave/TorSGX/TorSGX.cpp#L192 |
 ## Screenshots
