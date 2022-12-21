@@ -164,7 +164,7 @@ cd $PROJECT_ROOT/scripts/real-world enclaves/BiORAM-SGX
 |sgx-aes-gcm           |ECALL out       |https://github.com/rodolfoams/sgx-aes-gcm/blob/3378ba101ed9bfc555d933c669dfda5fd03235e3/CryptoEnclave/CryptoEnclave.cpp#L24               |
 |sgx-aes-gcm           |OCALL in        |https://github.com/rodolfoams/sgx-aes-gcm/blob/3378ba101ed9bfc555d933c669dfda5fd03235e3/CryptoEnclave/CryptoEnclave.cpp#L25               |
 |sgx-based-mix-networks|ECALL out       |https://github.com/oEscal/sgx-based-mix-networks/blob/2827f1004005ab6dca1cd060529bbae057b8cc61/mix_solution/Enclave/Enclave.cpp#L164      |
-|sgx-based-mix-networks|Null pointer    |https://github.com/oEscal/sgx-based-mix-networks/blob/2827f1004005ab6dca1cd060529bbae057b8cc61/mix_solution/Enclave/Enclave.cpp#L156      |
+|sgx-based-mix-networks|NPD    |https://github.com/oEscal/sgx-based-mix-networks/blob/2827f1004005ab6dca1cd060529bbae057b8cc61/mix_solution/Enclave/Enclave.cpp#L156      |
 |sgx_wechat_app        |OCALL in        |https://github.com/TonyCode2012/sgx_wechat_app/blob/56a8d55a089dc63b8bd43c06171c3c11e0a11753/Server/Enclave/Enclave.cpp#L130              |
 |sgx_wechat_app        |OCALL in        |https://github.com/TonyCode2012/sgx_wechat_app/blob/56a8d55a089dc63b8bd43c06171c3c11e0a11753/Server/Enclave/Enclave.cpp#L149              |
 |TACIoT                |OCALL in        |https://github.com/GTA-UFRJ-team/TACIoT/blob/99db93101cc881b7ce03d485b86f6b7da1ecea5d/server/server_enclave/server_enclave.cpp#L153       |
