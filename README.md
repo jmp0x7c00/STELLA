@@ -177,7 +177,7 @@ cd $PROJECT_ROOT/scripts/real-world enclaves/BiORAM-SGX
 |Town-Crier            |NPD?            |TODO                                                                                                                                      |
 |Fidelius             |OCALL in        |https://github.com/SabaEskandarian/Fidelius/blob/ab0d846506d2545ce570f295e154481c75a73a47/web_enclave/isv_enclave/isv_enclave.cpp#L1036   |
 |Fidelius            |OCALL in        |https://github.com/SabaEskandarian/Fidelius/blob/ab0d846506d2545ce570f295e154481c75a73a47/web_enclave/isv_enclave/isv_enclave.cpp#L1020   |
-|Fidelius            |NPD?            |TODO                                                                                                                                      |
+|Fidelius            |NPD            |https://github.com/SabaEskandarian/Fidelius/blob/ab0d846506d2545ce570f295e154481c75a73a47/web_enclave/isv_enclave/isv_enclave.cpp#L1034                                                                                                                                      |
 |sgx-dnet              |OCALL in        |https://github.com/anonymous-xh/sgx-dnet/blob/0fe09ccb9aa622d55b1b78ffd552feabe34f34e3/Enclave/dnet-in/src/parser.c#L1104                 |
 |sgx-dnet              |NPD?            |TODO                                                                                                                                      |
 |PrivacyGuard          |OCALL in        |https://github.com/yang-sec/PrivacyGuard/blob/94e888aaaf3db019d61a6585aaecf6780bccb408/DataBroker/Enclave/enclave.cpp#L490                |
